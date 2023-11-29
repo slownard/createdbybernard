@@ -13,10 +13,10 @@ function Header() {
             <h2>
                 Bernard Legaspi
             </h2>
-
+            {/* 
             <h3>
                 Not really something special but just a fraction of the thoughts of Bernard.
-            </h3>
+            </h3> */}
 
 
             {/* <a>

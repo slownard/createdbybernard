@@ -1,0 +1,34 @@
+{
+    "blogs": [
+        {
+            "id": "1",
+            "title": "The First One",
+            "date": "11/29/2023",
+            "text": "very excited to see create this. #fun"
+        },
+        {
+            "id": "2",
+            "title": "The Second One",
+            "date": "11/29/2023",
+            "text": "very excited to see create this. #fun"
+        },
+        {
+            "id": "3",
+            "title": "The Third One",
+            "date": "11/29/2023",
+            "text": "very excited to see create this. #fun"
+        },
+        {
+            "id": "4",
+            "title": "The Fourth One",
+            "date": "11/29/2023",
+            "text": "very excited to see create this. #fun"
+        },
+        {
+            "id": "5",
+            "title": "The Fitch One",
+            "date": "11/29/2023",
+            "text": "very excited to see create this. #fun"
+        }
+    ]
+}

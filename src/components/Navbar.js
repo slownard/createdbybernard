@@ -21,6 +21,10 @@ function Navbar() {
             style={({ isActive }) =>
             (isActive ? { color: 'white' } : { color: 'black' })}>Home</NavLink> */}
 
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/ministry">Ministry</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
 
 
         </div>
@@ -28,3 +32,5 @@ function Navbar() {
 
     )
 }
+
+export default Navbar;
