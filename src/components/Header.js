@@ -7,7 +7,7 @@ function Header() {
         <header className="App-header ">
 
             <h1>
-                THE NARDCHIVE
+                THE ARCHIV3
             </h1>
 
             <h2>
