@@ -6,8 +6,8 @@ function Header() {
 
         <header className="App-header ">
 
-            <h1>
-                THE ARCHIV3
+            <h1 classname="header">
+                LANDING PAGE
             </h1>
 
             <h2>

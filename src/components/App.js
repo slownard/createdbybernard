@@ -10,6 +10,7 @@ import React, { useEffect, useState } from "react";
 function App() {
 
 
+
     const [blogs, setblogs] = useState([])
 
     useEffect(() => {
@@ -19,11 +20,10 @@ function App() {
         // console.log(blogs);
     }, [])
 
+    // test
 
     return (
         <div className="App">
-
-
 
             <Header />
             <Navbar />
@@ -34,9 +34,6 @@ function App() {
             <Home />
             <Projects />
             <Jesus />
-
-
-
 
         </div>
     );
