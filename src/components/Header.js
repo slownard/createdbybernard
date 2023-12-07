@@ -14,9 +14,6 @@ function Header() {
                 A Curation of Bernard Legaspi
             </h2>
 
-
-
-
         </header>
     )
 

@@ -12,24 +12,22 @@ import { Route, Routes } from "react-router-dom";
 function App() {
 
 
+    const [page, setPage] = useState("/")
+    // const [blogs, setblogs] = useState([])
 
-    const [blogs, setblogs] = useState([])
-
-    useEffect(() => {
-        fetch('http://localhost:3001/blogs')
-            .then(res => res.json())
-            .then((data) => console.log(data));
-        // console.log(blogs);
-    }, [])
-
-    // test
+    // useEffect(() => {
+    //     fetch('http://localhost:3001/blogs')
+    //         .then(res => res.json())
+    //         // .then((data) => setBlogs([data, ...blogs]))
+    //         .then((data) => console.log(data));
+    //     // console.log(blogs);
+    // }, [])
 
     return (
         <div className="App">
 
             <Header />
-            <Navbar />
-
+            <Navbar onChangePage={setPage} />
 
             <Routes>
 

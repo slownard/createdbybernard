@@ -5,12 +5,19 @@
 import Blog from "./Blog";
 
 
-function Blogcontainer() {
+function Blogcontainer({ blogs }) {
 
-
+    const mapBlogs = blogs.map((blog) => {
+        return <Blog key={blog.id} skatespot={blog} />
+    })
 
     return (
-        <></>
+        <>
+            <ul className="cards">
+                {mapBlogs}
+            </ul>
+
+        </>
 
     )
 }
